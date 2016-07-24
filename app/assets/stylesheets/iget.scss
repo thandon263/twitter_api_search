@@ -1,0 +1,24 @@
+// Place all the styles related to the iget controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.tweets_content {
+  width: 400px;
+  height: 40px;
+  border: 1px solid #fff;
+  background: rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  margin: 20px auto;
+  padding: 40px 5px;
+  border-radius: 6px;
+}
+
+.tweets_content:hover {
+  color: lighten(blue, 0.5);;
+  transition: 2s;
+}
+
+a {
+  color: #fff;
+}

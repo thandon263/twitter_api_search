@@ -1,0 +1,10 @@
+<h1>Iget Tweets</h1>
+
+
+<% for i in @tweets %>
+<p class="tweets_content">
+  <%= i %>
+  <%= link_to 'view', iget_path(i) %>
+</p>
+
+<% end %>
